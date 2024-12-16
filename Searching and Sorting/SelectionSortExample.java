@@ -1,11 +1,11 @@
+
 public class SelectionSortExample {
 
     public static void selectionSort(int[] array) {
         int n = array.length;
 
-       
         for (int i = 0; i < n - 1; i++) {
-           
+
             int minIndex = i;
 
             for (int j = i + 1; j < n; j++) {
@@ -21,7 +21,7 @@ public class SelectionSortExample {
     }
 
     public static void main(String[] args) {
-        int[] array = {3,7,8,9,5,4,6,2,1};
+        int[] array = {3, 7, 8, 9, 5, 4, 6, 2, 1};
 
         System.out.println("Original array:");
         for (int num : array) {
