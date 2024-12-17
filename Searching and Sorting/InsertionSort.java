@@ -3,8 +3,7 @@ public class InsertionSort {
 
     public static void main(String[] args) {
         int[] arr = {3, 7, 8, 1, 2, 9}; // Input array
-        // insertionSort(arr); // Call the sorting function
-        // Arrays.sort(arr);
+        insertionSort(arr); // Call the sorting function
         System.out.print("Sorted Array: ");
         for (int num : arr) {
             System.out.print(num + " ");
